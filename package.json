@@ -7,9 +7,6 @@
   "license": "SEE LICENSE IN LICENSE",
   "markdown": "github",
   "version": "1.0.0",
-  "activationEvents": [
-    "onLanguage:markdown"
-  ],
   "author": {
     "email": "ini.dwiii@gmail.com",
     "name": "eternalbeginner",
