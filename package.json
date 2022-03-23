@@ -3,26 +3,33 @@
   "displayName": "Beginner Theme",
   "description": "A theme that I personally do not recommend you to install",
   "publisher": "eternalbeginner",
+  "homepage": "https://github.com/eternalbeginner/theme-beginner-theme/blob/main/README.md",
+  "license": "SEE LICENSE IN LICENSE",
+  "markdown": "github",
+  "version": "1.0.0",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "author": {
     "email": "ini.dwiii@gmail.com",
     "name": "eternalbeginner",
     "url": "https://github.com/eternalbeginner"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eternalbeginner/theme-beginner-theme.git"
-  },
-  "version": "1.0.0",
-  "homepage": "https://github.com/eternalbeginner/theme-beginner-theme/blob/main/README.md",
-  "main": "src/beginner-theme-color-theme.json",
-  "markdown": "github",
-  "license": "SEE LICENSE IN LICENSE",
-  "activationEvents": [
-    "onLanguage:markdown"
-  ],
   "categories": [
     "Themes"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "beginner-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/beginner-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.65.2"
+  },
   "keywords": [
     "best",
     "recommend",
@@ -33,7 +40,8 @@
     "vscode-themes",
     "vscode"
   ],
-  "engines": {
-    "vscode": ">=1.61"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eternalbeginner/theme-beginner-theme.git"
   }
 }
