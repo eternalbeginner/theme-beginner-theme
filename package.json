@@ -17,6 +17,9 @@
   "main": "src/beginner-theme-color-theme.json",
   "markdown": "github",
   "license": "SEE LICENSE IN LICENSE",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "categories": [
     "Themes"
   ],
