@@ -1,0 +1,36 @@
+{
+  "name": "beginner-theme",
+  "displayName": "Beginner Theme",
+  "description": "A theme that I personally do not recommend you to install",
+  "publisher": "eternalbeginner",
+  "author": {
+    "email": "ini.dwiii@gmail.com",
+    "name": "eternalbeginner",
+    "url": "https://github.com/eternalbeginner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eternalbeginner/theme-beginner-theme.git"
+  },
+  "version": "1.0.0",
+  "homepage": "https://github.com/eternalbeginner/theme-beginner-theme/blob/main/README.md",
+  "main": "src/beginner-theme-color-theme.json",
+  "markdown": "github",
+  "license": "SEE LICENSE IN LICENSE",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "best",
+    "recommend",
+    "beginner",
+    "beginner-theme",
+    "theme",
+    "themes",
+    "vscode-themes",
+    "vscode"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  }
+}
